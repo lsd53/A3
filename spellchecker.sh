@@ -1,2 +1,3 @@
 #! /bin/bash 
-grep -v -w -f english.txt $1
+file1=$1
+grep -v -w -f english.txt $file1
