@@ -1,5 +1,5 @@
 #! /bin/bash 
-<<<<<<< HEAD
-file1=$1
-grep -v -w -f english.txt $file1
+cat $1 |tr -s '[[:punct:][:space:]]' '\n' > temp.txt
+
+grep --color   -f englisht.txt temp.txt
 
