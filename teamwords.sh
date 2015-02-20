@@ -2,7 +2,7 @@
 
 usage ()
 {
-  echo 'Usage : <nbefore> <nafter'
+  echo 'Usage : <nbefore> <nafter>'
   exit
 }
 
